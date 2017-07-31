@@ -32,9 +32,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git@github.com:jfinal/enjoy.git</connection>
-		<developerConnection>scm:git:git@github.com:jfinal/enjoy.git</developerConnection>
-		<url>git@github.com:jfinal/enjoy.git</url>
+		<connection>scm:git:git@git.oschina.net:jfinal/enjoy.git</connection>
+		<developerConnection>scm:git:git@git.oschina.net:jfinal/enjoy.git</developerConnection>
+		<url>git@git.oschina.net:jfinal/enjoy.git</url>
 	</scm>
 	
 	<parent>
