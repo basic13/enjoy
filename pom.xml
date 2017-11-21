@@ -4,7 +4,7 @@
 	<artifactId>enjoy</artifactId>
 	<packaging>jar</packaging>
 	<name>enjoy</name>
-	<version>3.3-SNAPSHOT</version>
+	<version>3.3</version>
 	<url>http://www.jfinal.com</url>
 	<description>Enjoy is a simple, light, rapid, independent, extensible Java Template Engine.</description>
 	
