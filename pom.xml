@@ -15,7 +15,7 @@
 	
 	<issueManagement>
 		<system>Git Issue</system>
-		<url>http://git.oschina.net/jfinal/enjoy/issues</url>
+		<url>https://gitee.com/jfinal/enjoy/issues</url>
 	</issueManagement>
 	<licenses>
 		<license>
@@ -32,9 +32,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git@git.oschina.net:jfinal/enjoy.git</connection>
-		<developerConnection>scm:git:git@git.oschina.net:jfinal/enjoy.git</developerConnection>
-		<url>git@git.oschina.net:jfinal/enjoy.git</url>
+		<connection>scm:git:git@gitee.com:jfinal/enjoy.git</connection>
+		<developerConnection>scm:git:git@gitee.com:jfinal/enjoy.git</developerConnection>
+		<url>git@gitee.com:jfinal/enjoy.git</url>
 	</scm>
 	
 	<parent>
