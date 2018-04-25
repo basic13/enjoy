@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2011-2017, James Zhan 詹波 (jfinal@126.com).
+ * Copyright (c) 2011-2019, James Zhan 詹波 (jfinal@126.com).
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -155,6 +155,9 @@ public class SharedMethodKit {
 				Class<?> type = argTypes[i];
 				if (type != null) {
 					hash ^= type.getName().hashCode();
+					hash *= HashKit.FNV_PRIME_64;
+				} else {
+					hash ^= "null".hashCode();
 					hash *= HashKit.FNV_PRIME_64;
 				}
 			}

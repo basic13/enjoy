@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2011-2017, James Zhan 詹波 (jfinal@126.com).
+ * Copyright (c) 2011-2019, James Zhan 詹波 (jfinal@126.com).
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@ public class Include extends Stat {
 		if (len > 1) {
 			for (int i = 1; i < len; i++) {
 				if (!(exprList.getExpr(i) instanceof Assign)) {
-					throw new ParseException("The " + i + "th parameter of #include directive must be an assignment expression", location);
+					throw new ParseException("The " + (i + 1) + "th parameter of #include directive must be an assignment expression", location);
 				}
 			}
 		}
